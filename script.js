@@ -108,8 +108,8 @@ function calculateBill() {
       k102Bill = Math.round(totalBill - k101Bill);
 
       resultHtml = `
-          <p>K-101's Electricity Bill: ${k101Bill} HK</p>
-          <p>K-102's Electricity Bill: ${k102Bill} HK</p>
+          <p>K-101's Electricity Bill: ${k101Bill} Tk</p>
+          <p>K-102's Electricity Bill: ${k102Bill} Tk</p>
       `;
   }
 
@@ -143,10 +143,10 @@ function calculateBill() {
       k301Bill = Math.round(totalBill - sum);
 
       resultHtml = `
-          <p>K-301's Electricity Bill: ${k301Bill} HK</p>
-          <p>K-302's Electricity Bill: ${k302Bill} HK</p>
-          <p>K-401's Electricity Bill: ${k401Bill} HK</p>
-          <p>K-402's Electricity Bill: ${k402Bill} HK</p>
+          <p>K-301's Electricity Bill: ${k301Bill} Tk</p>
+          <p>K-302's Electricity Bill: ${k302Bill} Tk</p>
+          <p>K-401's Electricity Bill: ${k401Bill} Tk</p>
+          <p>K-402's Electricity Bill: ${k402Bill} Tk</p>
       `;
   }
 
