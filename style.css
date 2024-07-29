@@ -6,48 +6,63 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    overflow: hidden;
 }
 
 .container {
     text-align: center;
-    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    max-height: 90vh;
+    overflow: auto;
 }
 
 h1 {
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .floor-selection button {
+    background-color: #444;
+    border: none;
+    color: #ffcc00;
     padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 #form-container {
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
-#form-container input {
+#form-container input,
+#form-container button {
+    margin: 10px 0;
     padding: 10px;
-    margin: 5px 0;
-    width: 100%;
+    width: calc(100% - 22px);
     box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #f0f0f0;
 }
 
 #form-container button {
-    padding: 10px 20px;
-    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 @media (max-width: 600px) {
     .container {
-        width: 90%;
+        padding: 15px;
     }
 }
